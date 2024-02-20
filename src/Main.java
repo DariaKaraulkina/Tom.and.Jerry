@@ -1,7 +1,7 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    // Общее замечание: проверь ещё раз пробелы и знаки препинания, чтобы текст получился красивым (можно смотреть в образец)
         Cat Tom = new Cat();
-        Tom.name = "Том";
+        Tom.name = "Том";       // Здесь и ниже: задавать параметры объекта таким образом не очень хорошо (вспомни, почему). Нужно использовать конструкторы.
         Tom.age = 5;
         Tom.color = "серый";
 
@@ -21,7 +21,7 @@ public class Main {
         Jerry.runAway();
         Tom.chase("Джерри");
         Nibbles.characteristicsMous();
-        Jerry.union();
+        Jerry.union();      // Вспомни, в чём суть статических методов и параметров. Точно ли его нужно вызывать именно так (через объект класса)?
         Nibbles.help("Джерри");
 
         System.out.println("Ура! Джерри спасён!");
