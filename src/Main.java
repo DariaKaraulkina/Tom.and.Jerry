@@ -11,7 +11,7 @@ public class Main {
         Tom.chase(Jerry);
         Nibbles.characteristicsMouse();
         Mouse.union();
-        Nibbles.help("Джерри");
+        Nibbles.help(Jerry);
 
         System.out.println("Ура! Джерри спасён!");
     }

@@ -23,9 +23,9 @@ public class Mouse {
         System.out.println("Мышь  " + name + " убегает");
     }
 
-    public void help(String Mouse) {
+    public void help(Mouse MouseName) {
 
-        System.out.println("Мышь " + name + "  помогает  " + Mouse);
+        System.out.println("Мышь " + name + "  помогает  " + MouseName.name);
     }
 
     public static void union() {
