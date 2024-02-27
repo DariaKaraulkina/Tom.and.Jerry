@@ -18,7 +18,7 @@ public class Cat {
         System.out.println("Кот " + this.name + " охотится");
     }
 
-    public void chase(Mouse MouseName) {
+    public void chase(Mouse MouseName) {    //  А вот тут с типом теперь всё ок. Но название переменной спорное: всё-таки на вход подаём саму мышь, а не её имя.
         System.out.println("Кот " + this.name + "  догоняет мышь " + MouseName.name);
     }
 }
